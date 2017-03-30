@@ -105,6 +105,21 @@ const Game = React.createClass({
       <div className="container">
         <h3>Play Nine</h3>
         <hr/>
+        <div>
+          <h2>Instructions</h2>
+          <p>
+            <ul className="list-group">
+              <li className="list-group-item">1) Select one or more numbers from the list so that the sum of them matches the number of stars to the left.</li>
+              <li className="list-group-item">2) If there are no possible combinations to match the number of stars you can redraw {redraws} times.</li>
+              <li className="list-group-item">3) The game is over once you have either used all the available numbers or used all your redraws having no more possible solutions.</li>
+            </ul>
+            Have fun!
+          </p>
+
+        </div>
+        <br/>
+        <br/>
+        <br/>
         <div className="row">
           <Stars numberOfStars={numberOfStars}/>
           <Button selectedNumbers={selectedNumbers}

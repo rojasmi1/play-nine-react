@@ -6,19 +6,19 @@ const Button = (props) => {
   switch (props.answerIsCorrect) {
     case true:
     button = <button disabled={props.selectedNumbers.length === 0}
-      className="btn btn-success" onClick={props.acceptAnswer}>
+      className="btn btn-success btn-lg" onClick={props.acceptAnswer}>
       <i className="fa fa-check"></i>
     </button>
       break;
     case false:
     button = <button disabled={props.selectedNumbers.length === 0}
-      className="btn btn-danger">
+      className="btn btn-danger btn-lg">
       <i className="fa fa-times"></i>
     </button>
       break;
     default:
     button = <button disabled={props.selectedNumbers.length === 0}
-      className="btn btn-info" onClick={props.checkAnswer}>
+      className="btn btn-info btn-lg" onClick={props.checkAnswer}>
       =
     </button>
     break;
@@ -26,7 +26,7 @@ const Button = (props) => {
   }
 
   return (
-    <div className="col-md-2">
+    <div className="col-md-2" style={{paddingLeft:'5.3em'}}>
       {button}
       <br/>
       <br/>
