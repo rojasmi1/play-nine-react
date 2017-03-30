@@ -4,6 +4,8 @@
 
 This is a simple game using React.js, the game is based on the Pluralsight's course Reac.js: *Getting Started*
 
+Live URL: [http://play-nine.surge.sh/]
+
 ### Instructions
 - yarn install
 - yarn start:dev
