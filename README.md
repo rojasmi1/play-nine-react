@@ -2,7 +2,7 @@
 
 ## The play nine game done using ReactJS
 
-This is a simple game using React.js, the game is based on the Pluralsight's course Reac.js: *Getting Started*
+This is a simple game using React.js, the game is based on the Pluralsight's course React.js: *Getting Started*
 
 Live URL: [http://play-nine.surge.sh/]
 
